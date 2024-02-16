@@ -72,7 +72,11 @@ allahuAkbarDecre.addEventListener('click', function(){
 // reset btn
  const resetBtn=document.getElementById('reset-btn');
  resetBtn.addEventListener('click', function(){
+    // subahanallahDisplay.subahanallahInitialValue.innerText=0;
     subahanallahDisplay.innerText=0;
     alhamdulillahDisplay.innerText=0;
     allahuAkbarDisplay.innerText=0;
+    subahanallahInitialValue=0;
+    alhamdulillahInitialValue=0;
+    allahuakbarInitialValue=0;
  })
