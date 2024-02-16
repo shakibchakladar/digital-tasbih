@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <title>Personal Tasbih</title>
+    <!-- tailwind & daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header></header>
+    <main class="container w-full px-20 mx-auto text-center">
+        <h2 class="text-4xl font-extrabold text-center text-[#22d3ee]">Digital <span
+                class="text-[#0891b2]">Tasbih</span></h2>
+        <div class="grid grid-cols-1 gap-20 mx-0 my-20 md:grid-cols-3 md:gap-10">
+            <!-- card subhan Allah -->
+            <div class="w-full shadow-xl card bg-base-100 ">
+
+                <div class="items-center space-y-5 text-center card-body">
+                    <h2 class="card-title">Subhan Allah</h2>
+                    <p id="subahan-allah-display" class="text-4xl">0</p>
+                    <div class="flex gap-5">
+                        <button id="subahan-allah-incriment-btn" class="btn btn-accent">Incriment</button>
+                        <button id="subahan-allah-decrement-btn" class="btn btn-secondary">Decriment</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card Alhamdulillah -->
+            <div class="w-full shadow-xl card bg-base-100">
+
+                <div class="items-center text-center card-body">
+                    <h2 class="card-title">Alhamdulillah</h2>
+                    <p id="Alhamdulillah-display" class="text-4xl">0</p>
+                    <div class="flex gap-5">
+                        <button id="Alhamdulillah-incriment-btn" class="btn btn-accent">Incriment</button>
+                        <button id="Alhamdulillah-decrement-btn" class="btn btn-active btn-secondary">Decriment</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Allahu Akbar -->
+            <div class="w-full shadow-xl card bg-base-100">
+
+                <div class="items-center text-center card-body">
+                    <h2 class="card-title">Allahu Akbar</h2>
+                    <p id="allahuakbar-display" class="text-4xl">0</p>
+                    <div class="flex gap-5">
+                        <button id="Allah-akbar-incriment-btn" class="btn btn-accent">Incriment</button>
+                        <button id="Allahu-akbar-decriment-btn" class="btn btn-active btn-secondary">Decriment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="reset-btn" class="btn btn-success">Reset All TASBIH</button>
+
+    </main>
+
+
+    <script src="./script/script.js"></script>
+
+</body>
+
+</html>
